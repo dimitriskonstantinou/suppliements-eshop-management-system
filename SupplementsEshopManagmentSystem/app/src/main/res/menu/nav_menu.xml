@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboarditem"
+            android:title="Dashboard"
+            android:icon="@drawable/dashboardicon"/>
+
+        <item
+            android:id="@+id/productsitem"
+            android:title="Products"
+            android:icon="@drawable/productsicon"/>
+
+        <item
+            android:id="@+id/suppliersitem"
+            android:title="Suppliers"
+            android:icon="@drawable/baseline_local_shipping_24"/>
+
+        <item
+            android:id="@+id/salesitem"
+            android:title="Sales"
+            android:icon="@drawable/salesicon"/>
+
+        <item
+            android:id="@+id/customersitem"
+            android:title="Customers"
+            android:icon="@drawable/customersicon"/>
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About us"
+                android:icon="@drawable/baseline_info_24"/>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Log Out"
+                android:icon="@drawable/logouticon"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rescItemLayout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="10dp"
+        >
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="20dp"
+           android:background="@drawable/lavender_border">
+
+           <TextView
+               android:id="@+id/orderid2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               android:text="Order ID:"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               />
+
+           <TextView
+               android:id="@+id/orderid"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Order ID"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               app:layout_constraintStart_toEndOf="@+id/orderid2"
+               app:layout_constraintTop_toTopOf="parent"
+               android:layout_marginLeft="60dp" />
+
+           <TextView
+               android:id="@+id/username"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="UserName"
+               android:textSize="20dp"
+               app:layout_constraintStart_toEndOf="@+id/username2"
+               app:layout_constraintTop_toBottomOf="@+id/orderid"
+               android:layout_marginLeft="46dp"/>
+
+           <TextView
+               android:id="@+id/username2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="UserName:"
+               android:textSize="20dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/orderid2"
+               android:layout_marginTop="10dp"/>
+
+           <TextView
+               android:id="@+id/firstname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="Total items"
+               android:textSize="20dp"
+               app:layout_constraintStart_toEndOf="@+id/firstname2"
+               app:layout_constraintTop_toBottomOf="@+id/username"
+               android:layout_marginLeft="40dp"/>
+
+           <TextView
+               android:id="@+id/firstname2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="Total Items:"
+               android:textSize="20dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/username2" />
+
+           <TextView
+               android:id="@+id/secondname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="Total Cost"
+               android:textSize="20dp"
+               app:layout_constraintStart_toEndOf="@+id/secondname2"
+               app:layout_constraintTop_toBottomOf="@+id/firstname"
+               android:layout_marginLeft="50dp"/>
+
+           <TextView
+               android:id="@+id/secondname2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Total Cost:"
+               android:textSize="20dp"
+               android:layout_marginTop="10dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/firstname2" />
+
+           <ImageButton
+               android:id="@+id/editOrderPen"
+               android:background="@color/transparent"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintBottom_toBottomOf="parent"
+               android:src="@drawable/baseline_edit2_24"/>
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

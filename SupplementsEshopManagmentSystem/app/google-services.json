@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "454282073202",
+    "firebase_url": "https://pchardwareeshopmanagmentapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pchardwareeshopmanagmentapp",
+    "storage_bucket": "pchardwareeshopmanagmentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454282073202:android:7be690a3fe49e37c609eeb",
+        "android_client_info": {
+          "package_name": "com.example.pchardwareeshopmanagmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454282073202-msntiknnlu523mdscht6br9cheg3g70q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYUeMf5HUvsFwiOeoIFJ-s5hNXGdxKdac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454282073202-msntiknnlu523mdscht6br9cheg3g70q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454282073202:android:d7b89088e47e113b609eeb",
+        "android_client_info": {
+          "package_name": "com.example.supplementseshopmanagmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454282073202-msntiknnlu523mdscht6br9cheg3g70q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYUeMf5HUvsFwiOeoIFJ-s5hNXGdxKdac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454282073202-msntiknnlu523mdscht6br9cheg3g70q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

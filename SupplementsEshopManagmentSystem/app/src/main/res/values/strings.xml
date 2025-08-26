@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Supplements eshop managment system</string>
+    <string name="login_preference">com.example.supplementseshopmanagmentsystem_loginPreference</string>
+    <string name="login_status">com.example.supplementseshopmanagmentsystem_loginAppStatus</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="username_on_app_destroyed">com.example.supplementseshopmanagmentsystem_usernameOnAppDestroyed</string>
+    <string-array name="product_types">
+        <item></item>
+        <item>Proteins</item>
+        <item>Creatine</item>
+        <item>Amino Acids</item>
+        <item>Vitamins</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
